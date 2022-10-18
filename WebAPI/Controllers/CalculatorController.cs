@@ -26,6 +26,13 @@ namespace WebAPI.Controllers
         {
             return CalculatorLogic.CalculatorLogic.Substraction(left, right);
         }
+
+
+        [HttpGet]
+        public double Multiplication(double left, double right) // if user want to multiply 2 numbers this api works
+        {
+            return CalculatorLogic.CalculatorLogic.Multiplication(left, right);
+        }
     }
 }
 
