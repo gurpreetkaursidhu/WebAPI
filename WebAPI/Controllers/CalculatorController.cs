@@ -19,6 +19,13 @@ namespace WebAPI.Controllers
         {
             return CalculatorLogic.CalculatorLogic.Addition(left, right); // if user want to add 2 numbers this api works
         }
+
+
+        [HttpGet]
+        public double Subtraction(double left, double right) // if user want to subtract 2 numbers this api works
+        {
+            return CalculatorLogic.CalculatorLogic.Substraction(left, right);
+        }
     }
 }
 
