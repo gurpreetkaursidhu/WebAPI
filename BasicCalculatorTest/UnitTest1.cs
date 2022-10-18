@@ -35,7 +35,6 @@ public class UnitTest1
     [DataRow(10, 9, 1)]
     [DataRow(4, 1, 3)]
     [DataRow(8, 1, 7)]
-
     public void SubtractionTest(double left, double right, double expected)
     {
         var result = CalculatorLogic.CalculatorLogic.Substraction(left, right);
@@ -50,29 +49,28 @@ public class UnitTest1
     [DataRow(1.2, 2, 2.4)]
     [DataRow(1.1, 9, 9.9)]
     [DataRow(-1, -2, 2)]
-    [DataRow(9, -6, 54)]
+    [DataRow(9, -6, -54)]
     [DataRow(1.7, 8.9, 15.13)]
     [DataRow(7.9, -8.2, -64.78)]
     [DataRow(5, -5, -25)]
-
     public void MultiplicationTest(double left, double right, double expected)
     {
         var result = CalculatorLogic.CalculatorLogic.Multiplication(left, right);
         Assert.AreEqual(expected, result);
     }
 
+
     [TestMethod]
     [DataRow(9, 3, 3)]
     [DataRow(4, 4, 1)]
     [DataRow(3, 3, 1)]
-    [DataRow(-9.9, 3, 3.3)]
+    [DataRow(4.5, 5, 0.9)]
     [DataRow(10, -5, -2)]
     [DataRow(6, -2, -3)]
     [DataRow(20, -5, -4)]
     [DataRow(8.9, 5, 1.78)]
     [DataRow(20, 10, 2)]
     [DataRow(-12, 4, -3)]
-
     public void DivisionTest(double left, double right, double expected)
     {
         var result = CalculatorLogic.CalculatorLogic.Division(left, right);
@@ -81,7 +79,6 @@ public class UnitTest1
 
 
     [TestMethod]
-
     public void TestDivideByZeroException()
     {
 

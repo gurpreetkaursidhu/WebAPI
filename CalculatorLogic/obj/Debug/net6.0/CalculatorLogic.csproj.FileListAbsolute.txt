@@ -1,0 +1,12 @@
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/bin/Debug/net6.0/CalculatorLogic.deps.json
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/bin/Debug/net6.0/CalculatorLogic.dll
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/bin/Debug/net6.0/CalculatorLogic.pdb
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/CalculatorLogic.csproj.AssemblyReference.cache
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/CalculatorLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/CalculatorLogic.AssemblyInfoInputs.cache
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/CalculatorLogic.AssemblyInfo.cs
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/CalculatorLogic.csproj.CoreCompileInputs.cache
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/CalculatorLogic.dll
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/refint/CalculatorLogic.dll
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/CalculatorLogic.pdb
+/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/Debug/net6.0/ref/CalculatorLogic.dll
