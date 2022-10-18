@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CalculatorLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CalculatorLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalculatorLogic.dll": {}
+        }
       }
     }
   },
@@ -216,10 +226,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "CalculatorLogic/1.0.0": {
+      "type": "project",
+      "path": "../CalculatorLogic/CalculatorLogic.csproj",
+      "msbuildProject": "../CalculatorLogic/CalculatorLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CalculatorLogic >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -248,7 +264,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/CalculatorLogic.csproj": {
+              "projectPath": "/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/CalculatorLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
