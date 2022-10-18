@@ -33,6 +33,30 @@ namespace WebAPI.Controllers
         {
             return CalculatorLogic.CalculatorLogic.Multiplication(left, right);
         }
+
+
+        [HttpGet]
+        public double Division(double left, double right) // if user want to divide 2 numbers this api works
+
+        {
+            double result = 0;
+
+            try
+
+            {
+
+                result = CalculatorLogic.CalculatorLogic.Division(left, right);
+
+            }
+
+            catch (DivideByZeroException)
+            {
+                Response.StatusCode = 400;  // This 400 will be going to display if second number is missing
+            }
+
+
+            return result;
+        }
     }
 }
 
