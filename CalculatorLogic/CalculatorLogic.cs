@@ -8,5 +8,12 @@ public class CalculatorLogic
         return left + right;
 
     }
+
+    public static double Substraction(double left, double right)
+
+    {
+
+        return left - right;
+    }
 }
 
