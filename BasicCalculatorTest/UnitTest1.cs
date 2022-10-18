@@ -22,5 +22,24 @@ public class UnitTest1
         var result = CalculatorLogic.CalculatorLogic.Addition(left, right);
         Assert.AreEqual(expected, result);
     }
-    
+
+
+    [TestMethod]
+    [DataRow(2, 1, 1)]
+    [DataRow(9, 2, 7)]
+    [DataRow(10, 1, 9)]
+    [DataRow(2.1, 1, 1.1)]
+    [DataRow(9, -8, 17)]
+    [DataRow(7.8, 1, 6.8)]
+    [DataRow(6, 1, 5)]
+    [DataRow(10, 9, 1)]
+    [DataRow(4, 1, 3)]
+    [DataRow(8, 1, 7)]
+
+    public void SubtractionTest(double left, double right, double expected)
+    {
+        var result = CalculatorLogic.CalculatorLogic.Substraction(left, right);
+        Assert.AreEqual(expected, result);
+    }
+
 }
