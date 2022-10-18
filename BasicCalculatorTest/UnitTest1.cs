@@ -42,4 +42,23 @@ public class UnitTest1
         Assert.AreEqual(expected, result);
     }
 
+
+    [TestMethod]
+    [DataRow(1, 2, 2)]
+    [DataRow(8, 2, 16)]
+    [DataRow(2, 9, 18)]
+    [DataRow(1.2, 2, 2.4)]
+    [DataRow(1.1, 9, 9.9)]
+    [DataRow(-1, -2, 2)]
+    [DataRow(9, -6, 54)]
+    [DataRow(1.7, 8.9, 15.13)]
+    [DataRow(7.9, -8.2, -64.78)]
+    [DataRow(5, -5, -25)]
+
+    public void MultiplicationTest(double left, double right, double expected)
+    {
+        var result = CalculatorLogic.CalculatorLogic.Multiplication(left, right);
+        Assert.AreEqual(expected, result);
+    }
+
 }
