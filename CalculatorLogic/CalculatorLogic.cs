@@ -15,5 +15,12 @@ public class CalculatorLogic
 
         return left - right;
     }
+
+    public static double Multiplication(double left, double right)
+
+    {
+        return left * right;
+
+    }
 }
 
