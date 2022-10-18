@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gurpreetkaur/Documents/Adv web/WebAPI/WebAPI/WebAPI.csproj": {}
+    "/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/CalculatorLogic.csproj": {}
   },
   "projects": {
-    "/Users/gurpreetkaur/Documents/Adv web/WebAPI/WebAPI/WebAPI.csproj": {
+    "/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/CalculatorLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gurpreetkaur/Documents/Adv web/WebAPI/WebAPI/WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "/Users/gurpreetkaur/Documents/Adv web/WebAPI/WebAPI/WebAPI.csproj",
+        "projectUniqueName": "/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/CalculatorLogic.csproj",
+        "projectName": "CalculatorLogic",
+        "projectPath": "/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/CalculatorLogic.csproj",
         "packagesPath": "/Users/gurpreetkaur/.nuget/packages/",
-        "outputPath": "/Users/gurpreetkaur/Documents/Adv web/WebAPI/WebAPI/obj/",
+        "outputPath": "/Users/gurpreetkaur/Documents/Adv web/WebAPI/CalculatorLogic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gurpreetkaur/.nuget/NuGet/NuGet.Config"
@@ -38,12 +38,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -56,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{D1D19D04-F26F-4A42-8B6A-6546251C347A}|Default">
+  <MonoDevelop.Ide.ItemProperties.BasicCalculatorTest FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CalculatorLogic FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>
