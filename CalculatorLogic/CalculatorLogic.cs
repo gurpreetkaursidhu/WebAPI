@@ -22,5 +22,18 @@ public class CalculatorLogic
         return left * right;
 
     }
+
+    public static double Division(double left, double right)
+
+    {
+        if (right != 0)
+        {
+            return left / right;
+        }
+        else
+        {
+            throw new DivideByZeroException();
+        }
+    }
 }
 
