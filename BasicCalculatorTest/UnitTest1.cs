@@ -61,4 +61,35 @@ public class UnitTest1
         Assert.AreEqual(expected, result);
     }
 
+    [TestMethod]
+    [DataRow(9, 3, 3)]
+    [DataRow(4, 4, 1)]
+    [DataRow(3, 3, 1)]
+    [DataRow(-9.9, 3, 3.3)]
+    [DataRow(10, -5, -2)]
+    [DataRow(6, -2, -3)]
+    [DataRow(20, -5, -4)]
+    [DataRow(8.9, 5, 1.78)]
+    [DataRow(20, 10, 2)]
+    [DataRow(-12, 4, -3)]
+
+    public void DivisionTest(double left, double right, double expected)
+    {
+        var result = CalculatorLogic.CalculatorLogic.Division(left, right);
+        Assert.AreEqual(expected, result);
+    }
+
+
+    [TestMethod]
+
+    public void TestDivideByZeroException()
+    {
+
+        Assert.ThrowsException<DivideByZeroException>(() => CalculatorLogic.CalculatorLogic.Division(7, 0));
+    }
+
+
 }
+
+
+
